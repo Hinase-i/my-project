@@ -1,1 +1,3 @@
 Hello Git
+Update: I added a new line
+Update: I added a new line
