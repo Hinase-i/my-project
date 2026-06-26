@@ -1,1 +1,2 @@
 Hello Git
+My name is Hinase!
