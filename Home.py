@@ -21,7 +21,7 @@ boots_info = {
 # 3. 診断ロジック
 def get_boots_id(shape, color):
     if shape == "モックトゥ":
-        if color == "オレンジ": return "875"
+        if color == "ブラウン": return "875"
         if color == "赤茶": return "8875"
         if color == "黒": return "8849"
         if color == "チェリーブラック": return "8146"
@@ -38,7 +38,7 @@ if 'show_result' not in st.session_state:
 
 if not st.session_state.show_result:
     shape = st.radio("形を選んでください", ["モックトゥ", "プレーントゥ"])
-    color = st.radio("色を選んでください", ["黒", "赤茶", "オレンジ", "チェリーブラック", "ブラウン"])
+    color = st.radio("色を選んでください", ["黒", "赤茶", "チェリーブラック", "ブラウン"])
 
     if st.button("診断する"):
         boots_id = get_boots_id(shape, color)
